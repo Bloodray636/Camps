@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Adaptability-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Bootstrap link CSS-->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet"> 
+  <link href="bootstrap/css/bootstrap-utilities.min.css" rel="stylesheet"> 
+  
+  <!--Bootstrap link JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+  <!--CSS link-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--JQuery link-->
+
+ <script src="js/jquery.js"></script>
+
+  <!-- css-vars -->
+  <script src="js/css-vars.js"></script>
+
+ <!--Font awesome-->
+ <script src="font-awesome/js/all.min.js"></script>
+ <link src="font-awesome/css/all.min.css">
+
+
+<!--Owl Slider-->
+<script src="js/owl-slider/js/owl.carousel.min.js"></script>
+<link src="js/owl-slider/css/owl.carousel.min.css">
+<link src="js/owl-slider/css/owl.theme.default.min.css">
+  <title>Оформление покупки</title>
+</head>
+
+
+<body>
+<script src="js/script.js">
+    </script>
+<header>
+<div class="collapse" id="navbarToggleExternalContent2">
+		<div class="container" style="background-color:white;">
+			<div style="font-size:20px;" class="row">
+				<div class="visually col-7 p-2 col-lg-4">Версия для слабовидящих:
+					<button type="button" class="btn p-0 btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2" aria-expanded="false" aria-label="Toggle navigation">Выкл</button>
+				</div>
+				<div class="visually col-7  p-2 col-lg-2">
+					<a class="text-dark" href="#">Изображения:</a>
+					<button type="button" class="btn p-0 btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2" aria-expanded="false" aria-label="Toggle navigation">Выкл</button>
+				</div>
+				<div class="visually col-7  p-2 col-lg-3">
+					<a class="text-dark" href="#">Шрифт:</a>
+					<a class="a1 text-dark p-1" href="#">A</a>
+					<a class="a1 text-dark p-1" href="#">A</a>
+					<a class="a1 text-dark p-1" href="#">A</a>
+				</div>
+				<div class="visually col-7 p-2 col-lg-3">
+					<a class="text-dark" href="city.html">Цвет:</a>
+					<a class="a2 text-dark p-1" href="city.html">A</a>
+					<a class="a3 text-light p-1" href="city.html">A</a>
+					<a class="a4 p-1" href="#">A</a>
+					<a class="a5 p-1" href="#">A</a>
+				</div>
+			</div>
+		</div>
+    </div>
+	<nav class="icons" >
+		<div class="container">
+			<div class="row">
+				<div class="eye pt-2 text-start" style="width:50%;">
+					<a href="#" class="text-light" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2" aria-expanded="false" aria-label="Toggle navigation" aria-current="page"  style="font-size:16px;">
+						<svg xmlns="http://www.w3.org/2000/svg" style="margin-right:21px;" width="20" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+						  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+						  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+						</svg>
+					</a>
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" style="margin-right:21px;color:white;" width="21" height="17" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+						  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+						</svg>
+					</a>
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" style="margin-right:21px;color:white;" width="18" height="18" fill="currentColor" class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"/>
+						</svg>
+					</a>
+				</div>
+				<div class="panel text-end" style="margin-top:11px;width:50%;">
+					<a href="#"><i class="fab fa-vk"></i></a>
+					<a href="#"><i class="fab fa-odnoklassniki"></i></a>
+				</div>
+			</div>
+		</div>	
+	  </nav>
+	</header>
+
+<section class="header-title mt-2 mb-2">
+  <div class="container header-title">
+	<div class="row">
+		<div class="text-start section2 p-0">	
+			<a href="index.html" class="logo">
+			<div class="logo1 text-center">
+			<img src="img/logo.png" alt="" style="margin-right:10px;">
+			</a>
+			</div>
+			<div class="name">
+			<a href="index.html" class="dol">Детский оздоровительный лагерь “Березка”
+			<br>
+			<a href="#" class="buo" style="font-size:18px;">Бюджетное учереждение Омской области</a>
+			</div>
+			<div class="phone  m-0">
+			<p>По всем вопросам</p>
+			<p><a href="#">+7(3812) 981-293</a></p>
+			</div>
+		</div>
+	</div>
+  </div>
+  </section>
+  <section class="menu">
+	<nav class="navbar navbar-expand-lg navbar-light p-2">
+<div class="container">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+  <ul class="navbar-nav" style="margin-right:10px;">
+	<li class="nav-item">
+	  <a class="nav-link" aria-current="page" href="news.html">Новости</a>
+	</li>
+	<li class="nav-item"> 
+	  <a class="nav-link active" aria-current="page" href="#">Галерея</a>
+	</li>
+	<li class="nav-item dropdown">
+		<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Детский лагерь</a>
+		<ul class="dropdown-menu">
+		  <li><a class="dropdown-item" href="#">Информация о лагере</a></li>
+		  <li><a class="dropdown-item" href="#">Информация для родителей</a></li>
+		  <li><a class="dropdown-item" href="#">Смены</a></li>
+		</ul>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link active" aria-current="page" href="#">База отдыха</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link active" aria-current="page" href="#">Вакансии</a>
+	</li>
+
+	<li class="nav-item">
+	  <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+	</li>
+  </ul>
+</div>
+</div>
+</nav>
+</section>
+<section class="header-news">
+	<div class="container">
+		<div class="row">
+			<div class="news сol-12 text-center">
+				<h6 class="overhead">Проще, чем кажется</h6>
+				<h5>Оформление путевки</h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="price">
+	<div class="container">
+			<div class="row">
+				<div class="justify-content-center col-12 col-lg-8 pb-0">
+					<div class="head-change">
+                        <h1>1 смена 27.05.2021 г.- 16.06.2021 г. СМЕНА СОСТОЯЛАСЬ. - 21 День</h1>
+                    </div>
+                    <div class="container p-0">
+						<div id="owl-demo-3" class="owl-carousel owl-theme" style="overflow-x:hidden;">
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+				
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+				
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+				
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+				
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+				
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+				
+							<article class="thumbnail item">
+								<div class="img-change pt-4">
+									<img src="img/17.jpg">
+								</div>
+							</article>
+						</div><!-- #owl-demo-2 -->
+					</div><!-- .container -->
+                    <div class="about-change mt-5 mb-5">
+                        <a class="source source-1">
+							<div class="text-center">
+                           		<h3 class="animated-button thar-four">Описание</h3>
+                        	</div>
+						</a>
+                        <a class="source source-2">
+							<div class="text-center">
+                           		<h3 class="animated-button thar-four">Ответы на вопросы</h3>
+                        	</div>
+						</a>
+                    </div>
+                    <div class="target target-1 pb-5">
+                        <div class="targ-head">
+                        <h5>Описание</h5>
+                        <p class="date-chang pt-3">27.05.2022 г.- 16.06.2022 г.</p>
+                        </div>
+                        <h5>Продолжительность смены:</h5>
+                        <p class="ms-4 pt-2"><i class="fas fa-calendar me-3"></i>21 день.</p>
+                        <ol class="list-ch"><h5>Категории путевок:</h5>
+                            <li><p>Бюджетная,</p></li>
+                            <li><p>Внебюджетная,</p></li>
+                            <li><p>Коммерческая.</p></li>
+                        </ol>
+                        <ol class="list-ch pt-2"><h5>Размеры родительской доплаты:</h5>
+                            <li><p>Бюджет – 13636 руб. — ПРОДАНО,</p></li>
+                            <li><p>Внебюджет – 19768 руб. — ПРОДАНО,</p></li>
+                            <li><p>Коммерческая путевка – 25900 руб. — ПРОДАНО.</p></li>
+                        </ol>
+                        <ol class="list-ch pt-2"><h5>В стоимость входит:</h5>
+                            <li><p>Трансфер,</p></li>
+                            <li><p>Проживание,</p></li>
+                            <li><p>5-разовое сбалансированное питание,</p></li>
+                            <li><p>Организация досуга.</p></li>
+                        </ol>
+                        <h5 class="pt-2">Время и место отправки детей в лагерь:</h5>
+                        <p class="ms-4 pt-2"><i class="fas fa-map-marker-alt me-3"></i>27.05.2021 г. в 10:00 сбор — г. Омск, СК «Арена-Омск», в 11:00 — отправление колонны.</p>
+                        <h5 class="pt-2">Время и место приезда детей из лагеря:</h5>
+                        <p class="ms-4 pt-2"><i class="fas fa-map-marker-alt me-3"></i>16.06.2021 г. в 11:30, г. Омск, СК «Арена-Омск»</p>
+                        <ol class="list-ch"><h5>Условия проживания:ы</h5>
+                            <li><p>2-этажные благоустроенные спальные корпуса,</p></li>
+                            <li><p>Отапливаемые в прохладное время,</p></li>
+                            <li><p>С удобствами на этаже.</p></li>
+                        </ol>
+                    </div>
+                    <div class="target target-2 pb-5">
+						<div class="d-flex" data-bs-toggle='collapse' data-bs-target='#collapsediv1'>
+							<input type="checkbox" id="cbx" style="display:none"/>
+								<label for="cbx" class="toggle1 d-flex" ><span></span>
+						</label>
+						<a class="expand-close" href="#" data-bs-toggle='collapse' data-bs-target='#collapsediv1'>Expand/Close</a>
+					</div>
+							<div data-bs-toggle='collapse' data-bs-target='#collapsediv1' class="covid-targ-head d-flex mt-4">
+								<h5>Covid-19</h5>
+								<input class="arrow" type="checkbox" id="string">
+								<label class="right-down text-end" for="string">
+									<i class="text-end fas fa-angle-down"></i>
+								</label>
+							</div>
+						<div class="collapse mt-3" id='collapsediv1'>
+                       		<p>Уважаемые родители! В связи с поступающими вопросами разъясняем порядок работы нашего детского оздоровительного лагеря в летний сезон 2021 года.</p><br>
+							<p>В соответствии с санитарно-эпидемиологическими правилами СП 3.1/2.4 3598-20 «Санитарно-эпидемиологические требования к устройству, содержанию и организации работы образовательных организаций и других объектов социальной инфраструктуры для детей и молодежи в условиях распространения новой коронавирусной инфекции (Covid-19)» с учетом изменений, утвержденных Постановлением главного государственного санитарного врача РФ от 24.03.2021 г.№ 10, а также руководствуясь «Рекомендациями по организации работы организаций отдыха детей и их оздоровления в условиях сохранения рисков распостранения COVID-19 в 2021 году», утвержденными Роспотребнадзором РФ, ЗАПРЕЩЕНО ПОСЕЩЕНИЕ РОДИТЕЛЯМИ СВОИХ ДЕТЕЙ В ЛАГЕРЕ В ТЕЧЕНИЕ ВСЕЙ СМЕНЫ. Вещи и предметы личной гигиены можно будет передавать через охрану или отрядных вожатых.</p><br>
+							<p>УСТАНОВЛЕН ЗАПРЕТ НА ВРЕМЕННЫЙ ВЫЕЗД ДЕТЕЙ ИЗ ЛАГЕРЯ для различных целей, в том числе для сдачи экзаменов, получения документов, участия в конкурсах и соревнованиях, празднования дня рождения и т.п.</p><br>
+							<p>В 2021 году на каждого ребенка при заезде ОБЯЗАТЕЛЬНА ОТМЕТКА В МЕДИЦИНСКОЙ СПРАВКЕ УЧЕТНОЙ ФОРМЫ № 079/У ОБ ОТСУТСТВИИ контакта с инфекционными больными в течение 21 дня до момента заезда в лагерь, в том числе КОНТАКТА ПО COVID-19.</p><br>
+							<p>В ЛАГЕРЬ БУДУТ ПРИНИМАТЬСЯ ДЕТИ БЕЗ ПРИЗНАКОВ РЕСПИРАТОРНЫХ И ИНФЕКЦИОННЫХ (В Т.Ч. КИШЕЧНЫХ) ЗАБОЛЕВАНИЙ, ПОВЫШЕННОЙ ТЕМПЕРАТУРЫ ТЕЛА И ПРОЧИХ ПРОТИВОПОКАЗАНИЙ.</p><br>
+							<p>Пожалуйста, с пониманием отнеситесь к данным требованиям и проведите разъяснительную работу со своими детьми (особенно младшего школьного возраста), ведь их здоровье для нас с учетом складывающейся в настоящее время эпидемиологической ситуации в стране и регионе остается на первом месте!</p><br>
+						</div>
+					</div>
+					<div class="col-12 col-lg-12">
+						<div class="examination">
+							<h5>Как проверить карту мир, чтобы получить возврат кэшбэека?</h5>
+						</div>
+						<div class="examination-list pt-4">
+							<ul>
+								<li><svg class="checkmark me-2 mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+									<circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+									<path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+								  </svg> Проверьте, что на карте достаточно средств для оплаты.</li>
+								<li><svg class="checkmark me-2 mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+									<circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+									<path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+								  </svg> Банковская карта должны быть зарегистрирована в программе лояльности, сделать это можно на сайте <a class="examination-link" href="https://privetmir.ru/">https://privetmir.ru/</a>.</li>
+								<li><svg class="checkmark me-2 mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+									<circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+									<path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+								  </svg> Оплатите путевку. Обратите внимание, что сделать это можно только онлайн, только на сайтах партнеров программы: самого лагеря, детского учреждения, туроператора или агрегатора перечень которых опубликован на сайте <a class="examination-link" href="https://xn--b1afakdgpzinidi6e.xn--p1ai/">мирпутешествий.рф</a>.</li>
+								<li><svg class="checkmark me-2 mb-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+									<circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+									<path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+								  </svg> В течение 5 дней после транзакции вам начислят кешбэк в размере 50% от суммы оплаты, но не более 20 000 рублей.</li>
+							<ul>
+						</div>
+					</div>
+				</div>
+                <div class="col-12 col-lg-4 pb-5">
+                    <div class="payment">
+                        <div class="head-pay text-center">
+                            <h5 class="pb-2">Цена от:</h5>
+                        </div>
+                        <div class="extrabud text-center">
+                            <p><b>₽ 13,636.00</b> Per Бюджет</p>
+                        </div>
+                        <div class="extrabud text-center">
+                            <p><b>₽ 19,768.00</b> Per ВнеБюджет</p>
+                        </div>
+                        <div class="commer text-center">
+                            <p><b>₽ 25,900.00</b><br>Per Коммерческая путевка</p>
+                        </div>
+                        <div class="booking-form">
+                            <p class="ms-4">Добавить</p> 
+                            <div class="d-flex">
+								<div class="numbers1 ms-4">
+									<button class="number-minus" type="button" onclick="stepDown(1)">-</button>
+									<input class="text-center" id="inputik1" type="number" min="0" value="1" readonly>
+									<button class="number-plus" type="button" onclick="stepUp(1)">+</button>
+								</div>
+                            <div class="budget me-4 ms-3">
+                                <p>Бюджет</p>
+                            </div> 
+                        </div>
+                        <div class="budget-sum me-2 text-end">
+                            <h5>₽ 13,636</h5>
+                            <p>За Бюджет</p>
+                        </div>
+                        <hr class="hr-shadow">
+                        <div class="d-flex">
+                            <div class="numbers1 ms-4">
+								<button class="number-minus" type="button" onclick="stepDown(2)">-</button>
+								<input class="text-center" id="inputik2" type="number" min="0" value="1" readonly>
+								<button class="number-plus" type="button" onclick="stepUp(2)">+</button>
+							</div>
+                            <div class="budget  ms-2">
+                                <p>Внебюджет</p>
+                            </div> 
+                        </div>
+                        <div class="budget-sum me-2 text-end">
+                            <h5>₽ 19,768</h5>
+                            <p>За Внебюджет</p>
+                        </div>
+                        <hr class="hr-shadow">
+                        <div class="d-flex">
+                            <div class="numbers1 ms-4">
+								<button class="number-minus" type="button" onclick="stepDown(3)">-</button>
+								<input class="text-center" id="inputik3" type="number" min="0" value="1" readonly>
+								<button class="number-plus" type="button" onclick="stepUp(3)">+</button>
+							</div>
+                            <div class="budget  ms-2">
+                                <p>Коммерческая путевка</p>
+                            </div> 
+                        </div>
+                        <div class="budget-sum me-2 text-end">
+                            <h5>₽ 19,768</h5>
+                            <p>За коммерческую путевку</p>
+                        </div>
+                        <hr class="hr-shadow">
+                        <div class="total text-center">
+                            <p class="ms-4">Итого: <label>₽ 13,636</label></p> 
+                        </div>
+                        <div class="details text-center">
+                            <a href="#"><h5 class="pt-2">Детали</h5></a>
+                        </div>
+						<div class="button-wrapper2 pt-4 pb-4 text-center">
+                            <button  class="animated-button2 thar-four">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+
+				<div class="travel-facts mt-5">
+					<div class="travel-icons">
+						<h5 class="pt-3 pb-3">Факты о поездке</h5>
+						<div class="d-flex trip">
+							<i class="fas fa-bus-alt me-3"></i>
+							<p>Отправка от:</p>
+						</div>
+						<p class="trip-address mb-4">27.05.07.2021 г. в 10:00 сбор - г. Омск, СК "Арена-Омск", в 11:00 - отправление колонны</p>
+						<div class="d-flex trip">
+							<i class="fas fa-bus-alt me-3"></i>
+							<p>Прибытие в:</p>
+						</div>
+						<p class="trip-address mb-4">16.06.2021 г. в 11:30, г. Омск, СК "Арена-Омск"</p>
+						<div class="d-flex trip">
+							<i class="fas fa-utensils me-3"></i>
+							<p>Питание:</p>
+						</div>
+						<p class="trip-address pb-3">5-разовое сбалансированное питание</p>
+					</div>
+				</div>              
+
+			</div>
+		</div>
+	</section>
+		<footer class="p-0 m-0">
+			<div class="container w-100">
+				<div class="row">
+					<div class="footer-logo col-12 pt-4 pb-5">
+						<div class="logo text-center">
+							<img src="img/logo.png">
+							<h6 style="font-size:50px;">ДОЛ Березка</h6>
+						</div>
+					</div>
+					<div class="card-all col-12 col-md-12 col-lg-6">
+					<div class="card-two" style="width:100%;">
+						<div class="card-mir-cash">
+							<div class="">
+								<img src="img/17.png">
+							</div>
+							<div class="cash">
+								<h6>КЕШБЭК</h6>
+								<p>на оплату путёвок в детские<br> лагеря по карте «МИР»</p>
+							</div>
+						</div>
+						<div class="minrf text-start">
+								<p class="">Список лагерей и туроператоров детского отдыха на сайте <a class="link-minrf" href="https://xn--b1afakdgpzinidi6e.xn--p1ai/" >мирпутешествий.рф</a></p>
+						</div>
+
+					</div>
+					</div>
+					<div class="cards col-12 col-md-12 col-lg-6">
+						<div class="text-center d-flex">
+							<div class="card-cash text-center">
+								<h6>50%</h6>
+								<p>от стоимости путевки<br> конпенсирует госудраство</p>
+							</div>
+							<div class="card-cash text-center">
+								<img src="img/date.png">
+								<p>от стоимости путевки<br> конпенсирует госудраство</p>
+							</div>
+						</div>
+						<div class="text-center d-flex">
+							<div class="card-cash text-center">
+								<a style="font-size:18px;">до</a><a style="font-size:30px;"> 20000</a>
+								<p>максимальная сумма<br> возварта</p>
+							</div>
+							<div class="card-cash text-center">
+								<img src="img/555.png">
+								<p>от сроки покупки<br> путевки в лагере</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container pt- pb-4">
+				<div class="row">
+					<div class="footer-menu col-12 col-md-6 col-lg-3 justify-content-center">
+						<h5><a href="#">Смены лагеря</a></h5>
+						<ul class="list1 pt-2">
+							<li><a class="text-light underline" href="#">Спортивная смена</a></li>
+                            <li><a class="text-light underline" href="#">Танцевальная смена</a></li>
+                            <li><a class="text-light underline" href="#">Музыкальная смена</a></li>
+                            <li><a class="text-light underline" href="#">Киносмена</a></li>
+						</ul>
+					</div>
+					<div class="footer-menu col-12 col-md-6 col-lg-3">
+						<h5><a href="#">Контакты</a></h5>
+						<ul class="pt-2">
+							<li><a class="text-light" href="#">Номер телефона: +7 (999) 00 99 99</a></li>
+                                <li><a class="text-light" href="#">Адрес: ул. Пушкина 14/2</a></li>
+                                <li><a class="text-light" href="#">Email: lageromsck@mail.ru</a></li>
+						</ul>
+					</div>
+					<div class="footer-menu col-12 col-md-6 col-lg-3">
+						<h5><a href="#">Кэшбэк о Росстуризме</a></h5>
+						<ul class="pt-2">
+								<li><a class="text-light" href="#">Политика конфиденциальности</a></li>
+                                <li><a class="text-light" href="#">Пользовательское соглашение</a></li>
+                                <li><a class="text-light" href="#">Отказ от услуги</a></li>
+								<li><a class="text-light" href="#">Политика конфиденциальности</a></li>
+                                <li><a class="text-light" href="#">Пользовательское соглашение</a></li>
+						</ul>
+					</div>
+					<div class="footer-menu col-12 col-md-6 col-lg-3">
+						<h5><a href="#">Принимаем все виды оплаты</a></h5>
+                                    <div class="bank-card text-center d-flex pt-2">
+                                        <a href="#"><img class="linkspayment" src="img/visa.png" alt=""></a>
+                                        <a href="#"><img class="linkspayment" src="img/mc.png" alt="">
+                                        </a>
+                                        <a href="#"><img class="linkspayment" src="img/mir.png" alt="" \>
+                                        </a>
+                                </div>
+				</div>
+				</div>
+				</div>
+				</div>
+				<div class="footer-copyright w-100 pt-1 pb-1 text-center" style="background-color: rgba(0,0,0,0.3);">
+					<p class="text-white pt-3">Зарница © Все права защищены. Разработка и поддержка:ООО <a href="#" сдфыы>«СибСР»</a></p>
+				</div>
+		</footer>
+		<script src="js/script.js"></script>
+		
+</body>
+</html>

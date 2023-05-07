@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Adaptability-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Bootstrap link CSS-->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet"> 
+  <link href="bootstrap/css/bootstrap-utilities.min.css" rel="stylesheet"> 
+  
+  <!--Bootstrap link JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!--CSS link-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--JQuery link-->
+
+ <script src="js/jquery.js"></script>
+
+ <!--Font awesome-->
+ <script src="font-awesome/js/all.min.js"></script>
+ <link src="font-awesome/css/all.min.css">
+
+  <!-- css-vars -->
+  <script src="js/css-vars.js"></script>
+
+
+<!--Owl Slider-->
+<script src="js/owl-slider/js/owl.carousel.min.js"></script>
+<link src="js/owl-slider/css/owl.carousel.min.css">
+<link src="js/owl-slider/css/owl.theme.default.min.css">
+
+  <title>Березка</title>
+</head>
+
+<body>
+<header>
+<div class="collapse" id="navbarToggleExternalContent2">
+		<div class="container" style="background-color:white;">
+			<div style="font-size:20px;" class="row">
+				<div class="visually col-7 p-2 col-lg-4">Версия для слабовидящих:
+					<button type="button" class="btn p-0 btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2" aria-expanded="false" aria-label="Toggle navigation">Выкл</button>
+				</div>
+				<div class="visually col-7  p-2 col-lg-2">
+					<a class="text-dark" href="#">Изображения:</a>
+					<button type="button" class="btn p-0 btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2" aria-expanded="false" aria-label="Toggle navigation">Выкл</button>
+				</div>
+				<div class="visually col-7  p-2 col-lg-3">
+					<a class="text-dark" href="#">Шрифт:</a>
+					<a class="a1 text-dark p-1" href="#">A</a>
+					<a class="a1 text-dark p-1" href="#">A</a>
+					<a class="a1 text-dark p-1" href="#">A</a>
+				</div>
+				<div class="visually col-7 p-2 col-lg-3">
+					<a class="text-dark" href="city.html">Цвет:</a>
+					<a class="a2 text-dark p-1" href="city.html">A</a>
+					<a class="a3 text-light p-1" href="city.html">A</a>
+					<a class="a4 p-1" href="#">A</a>
+					<a class="a5 p-1" href="#">A</a>
+				</div>
+			</div>
+		</div>
+    </div>
+	<nav class="icons">
+		<div class="container">
+			<div class="row">
+				<div class="eye pt-2 text-start" style="width:60%;">
+					<a href="#" class="text-light" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2" aria-expanded="false" aria-label="Toggle navigation" aria-current="page"  style="font-size:16px;">
+						<svg xmlns="http://www.w3.org/2000/svg" style="margin-right:21px;" width="20" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+						  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+						  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+						</svg>
+					</a>
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" style="margin-right:21px;color:white;" width="21" height="17" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+						  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+						</svg>
+					</a>
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" style="margin-right:21px;color:white;" width="18" height="18" fill="currentColor" class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"/>
+						</svg>
+					</a>
+				</div>
+				<div class="panel text-end" style="margin-top:11px;width:40%;">
+					<a href="#"><i class="fab fa-vk"></i></a>
+					<a href="#"><i class="fab fa-odnoklassniki"></i></a>
+				</div>
+			</div>
+		</div>	
+	  </nav>
+	</header>
+
+	<section class="header-title mt-2 mb-2">
+		<div class="container header-title">
+		  <div class="row">
+				  <div class="text-start section2">	
+				  <div class="logo1 text-center">
+				  <a href="#" class="logo">
+				  <img src="img/logo.png" alt="" style="margin-right:10px;">
+				  </a>
+				  </div>
+				  <div class="name">
+				  <a href="#" class="dol">Детский оздоровительный лагерь “Берёзка”
+				  <br>
+				  <a href="#" class="buo" style="font-size:18px;">Бюджетное учереждение Омской области</a>
+				  </div>
+				  <div class="phone  m-0">
+				  <p>По всем вопросам</p>
+				  <p><a href="#">+7(3812) 981-293</a></p>
+				  </div>
+			  </div>
+		  </div>
+		</div>
+		</section>
+  <section class="menu">
+	<nav class="navbar navbar-expand-lg navbar-light p-2">
+<div class="container">
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+  <ul class="navbar-nav" style="margin-right:10px;">
+	<li class="nav-item">
+	  <a class="nav-link" aria-current="page" href="news.html">Новости</a>
+	</li>
+	<li class="nav-item"> 
+	  <a class="nav-link active" aria-current="page" href="#">Галерея</a>
+	</li>
+	<li class="nav-item dropdown">
+		<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Детский лагерь</a>
+		<ul class="dropdown-menu">
+		  <li><a class="dropdown-item" href="#">Информация о лагере</a></li>
+		  <li><a class="dropdown-item" href="#">Информация для родителей</a></li>
+		  <li><a class="dropdown-item" href="#">Смены</a></li>
+		</ul>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link active" aria-current="page" href="#">База отдыха</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link active" aria-current="page" href="#">Вакансии</a>
+	</li>
+
+	<li class="nav-item">
+	  <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+	</li>
+  </ul>
+</div>
+</div>
+</nav>
+</section>
+	<!--Slider-->
+<section class="news-slider"style="width:100%;">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"style="width:100%;">
+  <div class="carousel-inner" style="width:100%;">
+    <div class="carousel-item active" style="width:100%;">
+      <img src="img/1.jpg" class="d-flex w-100" alt="...">
+      <div class="carousel-caption d-md-block">
+        <p style="font-size:42px;">Путевки в детский</p>
+        <p style="font-size:42px;">лагерь  с кешбэком</p>
+		<p style="font-size:24px;">Получите до 50% затрат обратно</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/1.jpg" class="d-flex w-100" alt="...">
+      <div class="carousel-caption d-md-block">
+        <p style="font-size:42px;">Путевки в детский</p>
+        <p style="font-size:42px;">лагерь  с кешбэком</p>
+		<p style="font-size:24px;">Получите до 50% затрат обратно</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/1.jpg" class="d-flex w-100" alt="...">
+      <div class="carousel-caption d-md-block">
+        <p style="font-size:42px;">Путевки в детский</p>
+        <p style="font-size:42px;">лагерь  с кешбэком</p>
+		<p style="font-size:24px;">Получите до 50% затрат обратно</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <img class="carousel-control-prev-icon" aria-hidden="false" style="height:50px;width:auto;" src="img/left.png">
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <img class="carousel-control-next-icon" aria-hidden="false" style="height:50px;width:auto;" src="img/right.png">
+  </button>
+</div>
+</section>
+  <!--News Block-->
+  <section>
+	<div class="container m-auto">
+          <div class="row">
+					<div class="main-change pt-5 pb-5 text-center">
+						<h1>Наши смены</h1>
+						<p class="line mt-3"></p>
+					</div>
+          </div>
+        </div>
+        </section>
+
+		<section>
+			<div class="container">
+				<div id="owl-demo-2" class="owl-carousel owl-theme" style="overflow-x:hidden;">
+		
+					<article class="thumbnail item">
+						<div class="card1 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+		
+					<article class="thumbnail item">
+						<div class="card2 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+		
+					<article class="thumbnail item">
+						<div class="card3 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+		
+					<article class="thumbnail item">
+						<div class="card4 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+					<article class="thumbnail item">
+						<div class="card1 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+		
+					<article class="thumbnail item">
+						<div class="card2 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+		
+					<article class="thumbnail item">
+						<div class="card3 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+		
+					<article class="thumbnail item">
+						<div class="card4 card h-100 card-span m-auto shadow">
+							<div class="card-body m-auto p-0 text-center">
+							  <div class="cardback1">
+								<p class="card-date p-2">31 Мая - 20 Июня</p>
+								<p class="change mb-4">Спортивная смена</p>
+								<a href="price.html"><button class="grow_skew_backward">Забронировать</button></a>
+							  </div>
+							</div>
+						  </div>
+					</article>
+				</div><!-- #owl-demo-2 -->
+			</div><!-- .container -->
+		</section>
+
+<div class="block1 block d-flex">
+		<div class="container1 container">
+          <div class="content1">
+      <p style="font-size:30px;line-height: 150%;">Не нужно искать лучшее место,<br> оно там, где ты находишься прямо сейчас</p>
+    </div>
+          <div class="image-box3"></div>
+		  </div>
+      </div>
+	 </section>
+<section class="section-photo">
+<div class="container">
+	<div class="main-change pb-3 text-center">
+						<h1>Наша фотогалерея</h1>
+						<p class="line mt-3"></p>
+					</div>
+		<div class="container2 d-flex mt-5">
+								<div class="col-12 col-lg-6">
+								<div class="box">
+								<div class="box1">
+									<div class="imgBx">
+									<img src="img/8.jpg" style="width: 100%;height: 100%;object-fit: cover;transition: 0.5s;">
+									</div>
+								</div>
+								</div>
+								</div>
+								<div class="col-12 col-lg-3">
+								<div class="box">
+									<div class="imgBx">
+									<img src="img/9.jpg" style="width: 100%;height: 100%;object-fit: cover;">
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+									<img src="img/10.jpg" style="width: 100%;height: 100%;object-fit: cover;">
+									</div>
+								</div>
+								</div>
+								<div class="col-12 col-lg-3">
+								<div class="box">
+									<div class="imgBx">
+									<img src="img/11.jpg" style="width: 100%;height: 100%;object-fit: cover;">
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+									<img src="img/12.jpg" style="width: 100%;height: 100%;object-fit: cover;">
+									</div>
+								</div>
+								</div>
+							</div>
+							</div>
+	</section>
+	
+	<section class="description">
+	<div class="container">
+		<div class="row pb-5">
+			<div class="col-md-12 col-lg-6">
+				<div class="tit text-center">
+					<div class="main-change  text-center">
+						<h1>О нас</h1>
+						<p class="line mt-3"></p>
+					</div>
+					<p class="text-start mt-5 m-auto" style="font-size:24px;">
+						Детский оздоровительный лагерь "Зарница" УФСИН России по Омской области расположен в пригороде рядом с деревней Подгородка. Лагерь со всех сторон окружен лесом. Сама природа создала здесь условия отдыха - удивительный микроклимат сочетающий аромат смешанного леса, целебные свойства которого известны с давних пор. Каждое лето в лагере с удовольствием отдыхают ребята города Омска и Омской области, в основном дети из семей сотрудников уголовной исполнительной службы
+					</p>
+				</div>
+				<div class="col-12 text-center pt-5">
+					<button class="btn btn-1 btn-1c">Подробнее</button>
+				</div>
+			</div>
+
+			<div class="photo-desc col-md-12 col-lg-6 text-center mb-5" >
+				<div class="pt-5">
+					<img class="info" src="img/13.jpg" alt="IMG-OUR">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="pride sct1" style="background-color:#1d202e;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="padding-bottom:100px;">
+				<div class="main-change  text-center">
+					<h1 style="color:white;">Чем мы гордимся</h1>
+					<p class="line mt-3"></p>
+				</div>
+			</div>
+				 <div class="col-12 col-md-6 col-lg-3">
+					<div class="service-item">
+							<div class="ach-number">
+								<img  src="img/people-fill.png">
+								<div class="number" data-max="350">0</div>
+								<h5 class="font-base4 mt-3 mb-3 text-start"></h5>
+								<p class="pt-4" style="font-size:16px;">Количество детей за смену</p>
+							</div>
+					</div>
+				</div>
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="ellipse">
+					<div class="ach-number">
+								<img  src="img/house-fill.png">
+								<div class="number1" data-max="4">0</div>
+								<h5 class="font-base4 mt-3 mb-3 text-start"></h5>
+								<p class="pt-4" style="font-size:16px;">Комфортных корпуса</p>
+							</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-3">
+				<div class="ellipse">
+					<div class="ach-number">
+						<img  src="img/emoji-sunglasses-fill.png">
+								<div class="number2" data-max="4">0</div>
+								<h5 class="font-base4 mt-3 mb-3 text-start"></h5>
+								<p class="pt-4" style="font-size:16px;">Смены за лето</p>
+							</div>
+				</div>
+				</div>
+			
+			<div class="col-12 col-md-6 col-lg-3">
+					<div class="ellipse">
+					<div class="ach-number">
+						<img  src="img/briefcase-fill.png">
+								<div class="number3" data-max="19">0</div>
+								<h5 class="font-base4 mt-3 mb-3 text-start"></h5>
+								<p class="pt-4" style="font-size:16px;">Cтаж работы педагогического <br> отрядао</p>
+							</div>
+				</div>
+			</div>
+</section>
+	<section class="reviews">
+		<div class="main-change  text-center" style="padding-bottom:50px;">
+			<h1>Отзывы о лагере Берёзка</h1>
+			<p class="line mt-3"></p>
+		</div>
+		<div id="carouselExample4" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<div class="container">
+					<div class="row">
+					<div class="rev-block col-12 col-md-12 col-lg-6 w-45" >
+						<h4 style="font-size:22px;">Анастасия Морозова</h4>
+						<h1 class="pb-3" style="font-size:16px;">Мама</h1>
+						<p style="font-size:18px;">Ребенок просто в восторге. Это была ее первая поездка в лагерь. Вожатые очень внимательные и заботливые. Огромное спасибо за индивидуальный подход к каждому ребенку. Обязательно поедем еще и всем будем рекомендовать... огромный респект Данилу и Матвею от Арины и ее мамы.</p>
+					</div>
+					<div class="rev-block1 col-12 col-lg-6 col-md-12 w-45" >
+						<h4 style="font-size:22px;">Анастасия Морозова</h4>
+						<h1 class="pb-3" style="font-size:16px;">Мама</h1>
+						<p style="font-size:18px;">Супер-лагерь! Ребёнок вернулся счастливый довольный с кучей впечатлений и новых друзей! Спасибо всем!! Увидимся в следующем году!</p>
+					</div>
+				</div>
+				</div>
+			  </div>
+		
+			  <div class="carousel-item">
+				<div class="container">
+					<div class="row">
+					<div class="rev-block col-12 col-lg-6 w-45">
+						<h4 style="font-size:22px;">Анастасия Морозова</h4>
+						<h1 class="pb-3" style="font-size:16px;">Мама</h1>
+						<p style="font-size:18px;">Ребенок просто в восторге. Это была ее первая поездка в лагерь. Вожатые очень внимательные и заботливые. Огромное спасибо за индивидуальный подход к каждому ребенку. Обязательно поедем еще и всем будем рекомендовать... огромный респект Данилу и Матвею от Арины и ее мамы.</p>
+					</div>
+					<div class="rev-block1 col-12 col-lg-6  w-45">
+						<h4 style="font-size:22px;">Анастасия Морозова</h4>
+						<h1 class="pb-3" style="font-size:16px;">Мама</h1>
+						<p style="font-size:18px;">Супер-лагерь! Ребёнок вернулся счастливый довольный с кучей впечатлений и новых друзей! Спасибо всем!! Увидимся в следующем году!</p>
+					</div>
+				</div>
+				</div>
+			  </div>
+			  
+			  <div class="carousel-item">
+				<div class="container">
+					<div class="row">
+					<div class="rev-block col-12 col-lg-6 w-45">
+						<h4 style="font-size:22px;">Анастасия Морозова</h4>
+						<h1 class="pb-3" style="font-size:16px;">Мама</h1>
+						<p style="font-size:18px;">Ребенок просто в восторге. Это была ее первая поездка в лагерь. Вожатые очень внимательные и заботливые. Огромное спасибо за индивидуальный подход к каждому ребенку. Обязательно поедем еще и всем будем рекомендовать... огромный респект Данилу и Матвею от Арины и ее мамы.</p>
+					</div>
+					<div class="rev-block1 col-12 col-lg-6  w-45">
+						<h4 style="font-size:22px;">Анастасия Морозова</h4>
+						<h1 class="pb-3" style="font-size:16px;">Мама</h1>
+						<p style="font-size:18px;">Супер-лагерь! Ребёнок вернулся счастливый довольный с кучей впечатлений и новых друзей! Спасибо всем!! Увидимся в следующем году!</p>
+					</div>
+				</div>
+				</div>
+			  </div>
+		
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4"  data-bs-slide="prev">
+				<img class="carousel-control-prev-icon" aria-hidden="false" style="height:50px;width:auto;" src="img/leftdark.png">
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4"  data-bs-slide="next">
+				<img class="carousel-control-next-icon" aria-hidden="false" style="height:50px;width:auto;" src="img/rightdark.png">
+			  </button>
+		  </div>
+	</section>
+	<footer class="p-0 m-0">
+		<div class="container w-100">
+			<div class="row">
+				<div class="footer-logo col-12 pt-4 pb-5">
+					<div class="logo text-center">
+						<img src="img/logo.png">
+						<h6 style="font-size:50px;">ДОЛ Берёзка</h6>
+					</div>
+				</div>
+				<div class="card-all col-12 col-md-12 col-lg-6">
+				<div class="card-two" style="width:100%;">
+					<div class="card-mir-cash">
+						<div class="">
+							<img src="img/17.png">
+						</div>
+						<div class="cash">
+							<h6>КЕШБЭК</h6>
+							<p>на оплату путёвок в детские<br> лагеря по карте «МИР»</p>
+						</div>
+					</div>
+					<div class="minrf text-start">
+							<p class="">Список лагерей и туроператоров детского отдыха на сайте <a class="link-minrf"  href="https://xn--b1afakdgpzinidi6e.xn--p1ai/">мирпутешествий.рф</a></p>
+					</div>
+
+				</div>
+				</div>
+				<div class="cards col-12 col-md-12 col-lg-6">
+					<div class="text-center d-flex">
+						<div class="card-cash text-center">
+							<h6>50%</h6>
+							<p>от стоимости путевки<br> конпенсирует госудраство</p>
+						</div>
+						<div class="card-cash text-center">
+							<img src="img/date.png">
+							<p>от стоимости путевки<br> конпенсирует госудраство</p>
+						</div>
+					</div>
+					<div class="text-center d-flex">
+						<div class="card-cash text-center">
+							<a style="font-size:18px;">до</a><a style="font-size:30px;"> 20000</a>
+							<p>максимальная сумма<br> возварта</p>
+						</div>
+						<div class="card-cash text-center">
+							<img src="img/555.png">
+							<p>от сроки покупки<br> путевки в лагере</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container pt- pb-4">
+			<div class="row">
+				<div class="footer-menu col-12 col-md-6 col-lg-3 justify-content-center">
+					<h5><a href="#">Смены лагеря</a></h5>
+					<ul class="list1 pt-2">
+						<li><a class="text-light underline" href="#">Спортивная смена</a></li>
+						<li><a class="text-light underline" href="#">Танцевальная смена</a></li>
+						<li><a class="text-light underline" href="#">Музыкальная смена</a></li>
+						<li><a class="text-light underline" href="#">Киносмена</a></li>
+					</ul>
+				</div>
+				<div class="footer-menu col-12 col-md-6 col-lg-3">
+					<h5><a href="#">Контакты</a></h5>
+					<ul class="pt-2">
+						<li><a class="text-light" href="#">Номер телефона: +7 (999) 00 99 99</a></li>
+							<li><a class="text-light" href="#">Адрес: ул. Пушкина 14/2</a></li>
+							<li><a class="text-light" href="#">Email: lageromsck@mail.ru</a></li>
+					</ul>
+				</div>
+				<div class="footer-menu col-12 col-md-6 col-lg-3">
+					<h5><a href="#">Кэшбэк о Росстуризме</a></h5>
+					<ul class="pt-2">
+							<li><a class="text-light" href="#">Политика конфиденциальности</a></li>
+							<li><a class="text-light" href="#">Пользовательское соглашение</a></li>
+							<li><a class="text-light" href="#">Отказ от услуги</a></li>
+							<li><a class="text-light" href="#">Политика конфиденциальности</a></li>
+							<li><a class="text-light" href="#">Пользовательское соглашение</a></li>
+					</ul>
+				</div>
+				<div class="footer-menu col-12 col-md-6 col-lg-3">
+					<h5><a href="#">Принимаем все виды оплаты</a></h5>
+								<div class="bank-card text-center d-flex pt-2">
+									<a href="#"><img class="linkspayment" src="img/visa.png" alt=""></a>
+									<a href="#"><img class="linkspayment" src="img/mc.png" alt="">
+									</a>
+									<a href="#"><img class="linkspayment" src="img/mir.png" alt="" \>
+									</a>
+							</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			<div class="footer-copyright w-100 pt-1 pb-1 text-center" style="background-color: rgba(0,0,0,0.3);">
+				<p class="text-white pt-3">Берёзка © Все права защищены. Разработка и поддержка:<a class="text-white" href="#">ООО «СибСР»</a></p>
+			</div>
+	</footer>
+		<script src="js/script.js"></script>
+</body>
+</script>
+</html>

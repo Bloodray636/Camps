@@ -1,0 +1,149 @@
+:root{
+  --clr1:white;
+  --clr2:#239e29;
+  --clr3: #ddffc7; 
+  --clr4:#2f5416;
+  --bg-linear:rgba(35, 158, 41, .1), rgba(35, 158, 41, .5);
+}
+        .panel svg, .fa-vk, .fa-odnoklassniki, .nav-link, .carousel-caption, .change, .card-date,.tit p, .cash p,.minrf,.footer-menu h5,.footer-menu ul li a,.shine-button,.animated-button.thar-four:hover,.animated-button2.thar-four:hover,.animated-button.thar-four:before ,.animated-button2.thar-four:before  {
+          color: var(--clr1)!important;
+        }
+      
+        .btn,.ach-number,.arrow-btn:hover {
+            color:var(--clr1);
+        }
+      
+        .btn:hover{
+        background-color: var(--clr1);
+        color:var(--clr2); 
+      }
+      
+      .shine-button:hover {
+        background: var(--clr1)!important;
+        color:var(--clr2)!important; 
+        border:3px solid var(--clr2);
+        }
+      
+        .name .dol, .buo, .phone a, .footer-logo .logo h6, .cash h6,.footer-menu h5 a,.overhead,.main-change h1,.target h5,.fa-calendar, .fa-location-dot,.details a,.list-ch li:before,.animated-button.thar-four,.animated-button2.thar-four,.targ-head h5,.covid-targ-head h5,.expand-close:hover,.trip p,.travel-facts h5 {
+          color:var(--clr2)!important; 
+      }
+      
+      .nav-link:hover {
+        color: var(--clr4)!important;
+        }
+      
+        .dropdown-item,.change1,.news h5, .examination h5,.link-minrf, .examination-link,.col-form-label,.arrow-btn,.grow_skew_backward:hover,  .btn-1c:hover, .btn-1c:active,.list-ch li:before,.list-ch li:hover:before,.budget-sum h5,.total label,.details, .shine-button2:hover {
+        color:var(--clr2);
+      }
+      
+      .grow_skew_backward::after,  .btn-1c:after,.shine-button2:hover,.animated-button2.thar-four {
+        background: var(--clr1);
+        }
+      
+        .commer,.number-plus,.number-minus {
+          background-color: var(--clr3);
+        }
+      
+      
+      .dropdown-item:hover{
+        color: var(--clr4)!important;
+        background-color: var(--clr1);
+      }
+      
+      .icons, .icons .container, .navbar, .card-date, .btn,.arrow-btn span:before,.arrow-btn:after,.shine-button,.shine-button2,.animated-button.thar-four:before ,.animated-button2.thar-four:before,  #cbx:checked + .toggle1 span  {
+        background-color:var(--clr2);
+      }
+      
+      .content1,.card-cash,.grow_skew_backward, .btn {
+        background:var(--clr2);
+          color: var(--clr1);
+        }
+      
+      
+      
+        .info, .rev-block, .rev-block1,.form-check-input,.arrow-btn{
+          border:3px solid var(--clr2);
+        }
+        
+        .ach-number .font-base42, .font-base4,.footer-menu h5 a{
+          border-bottom:3px solid var(--clr2);
+        }
+        
+        footer a {
+            color: #3d3d3d;
+          }
+        
+          .form-control:focus, .form-select:focus,.form-check-input:focus{
+          box-shadow: 0 0 0 0.25rem rgb(114 171 76 / 25%);
+          border:3px solid var(--clr2);
+        }
+        
+        .change select:focus{
+          box-shadow: 0 0 0 0.25rem rgb(114 171 76 / 25%);
+        }
+        
+        .form-check-input:checked{
+          background-color:var(--clr2);
+          border:3px solid var(--clr2);
+          box-shadow: 0 0 0 0.25rem rgb(114 171 76 / 25%);
+        }
+        
+        .checkmark__circle {
+          stroke: var(--clr2);
+          }
+          
+          .checkmark {
+          stroke: var(--clr1);
+          box-shadow: inset 0px 0px 0px var(--clr2);
+          }
+        
+@keyframes fill {
+  100% {
+        box-shadow: inset 0px 0px 0px 30px var(--clr2);
+      }
+}
+        
+.checkbox[type="checkbox"]:checked + label:before{
+  border-left:4px solid var(--clr2);
+}
+
+.checkbox[type="checkbox"]:checked + label{
+  border-bottom:4px solid var(--clr2);
+}
+      
+.shine-button2:hover {
+  border:3px solid var(--clr2);
+}
+
+.shine-button2,.shine-button {
+	color: var(--clr1);
+	border:3px solid var(--clr1);
+  }
+  .shine-button2:before,  .shine-button:before {
+	background: linear-gradient(90deg, var(--bg-linear));
+  }
+
+  .details,  #cbx:checked + .toggle1:before{
+    background-color:var(--clr3);
+  }
+
+  .list-ch li:after {
+    border: 5px solid var(--clr2); 
+}
+
+.list-ch li:hover:before {
+  color:var(--clr2);
+}
+
+.animated-button.thar-four, .animated-button2.thar-four {
+	border: 2px solid var(--clr2);
+}
+
+.covid-targ-head{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.toggle1 span,  .toggle1 span:before {
+	box-shadow: 0 3px 8px var(--bg-linear);
+  }
